@@ -1,6 +1,7 @@
 const val  TAVERN_NAME = "Taerny's Folly"
 fun main(args: Array<String>) {
     placeOrder("shandy ,Dragon's Breath, 5.91")
+    placeOrder("elixir ,Shirley's Temple, 4.12")
 }
 
 private fun toDragonSpeak(phrase: String) =
